@@ -1,0 +1,36 @@
+.container{
+    max-width: 90%;
+    margin: auto;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+.intro{
+    padding: 1.5rem 0 0;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+.flex{
+    display: flex;
+    flex-direction: column
+}
+.flex:nth-child(2){
+    margin-top: 100px;
+}
+.person:nth-child(2) div,
+.person:nth-child(5) div{
+    margin-top: 0px;
+}
+
+.person{
+    padding: 2rem;
+}
+.person div img{
+    width: 100%;
+}

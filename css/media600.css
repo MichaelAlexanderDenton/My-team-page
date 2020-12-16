@@ -1,0 +1,49 @@
+.container{
+    max-width: 90vw;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.intro{
+    width: 80%;
+    padding: 1.5rem 0 0;
+}
+
+.intro .intro-text{
+    font-size: 14px;
+}
+
+/* Main */
+#main-footer{
+    padding: 3rem 0;
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.flex{
+    flex-direction: column;
+}
+
+.flex:nth-child(2){
+    margin-top: 80px;
+}
+
+.person:nth-child(2) div,
+.person:nth-child(5) div{
+    margin-top: 0px;
+}
+
+.person{
+    padding: 2rem;
+}
+.person div img{
+    width: 100%;
+}
